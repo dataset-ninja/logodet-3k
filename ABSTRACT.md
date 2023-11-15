@@ -36,10 +36,10 @@ Additionally, the authors provide insights into the distribution of images and c
 
 The dataset's statistics further detail the distribution of logo categories, images, and logo objects across nine super-classes, revealing variations in sizes and numbers. Notably, the Food, Clothes, and Necessities classes exhibit larger numbers of objects and images compared to other classes in the dataset.
 
-<img src="https://github.com/supervisely/dataset-tools/assets/78355358/c6956782-9b83-4986-bbf8-a7aefe2fe681" alt="image" width="800">
+<img src="https://github.com/supervisely/dataset-tools/assets/78355358/c6956782-9b83-4986-bbf8-a7aefe2fe681" alt="image" width="1200">
 
 <span style="font-size: smaller; font-style: italic;">The detailed statistics of LogoDet-3K about Image and object distribution in per category, the number of objects in per image and object size in per image.</span>
 
-<img src="https://github.com/supervisely/dataset-tools/assets/78355358/8e32b371-b130-485e-817b-b058de87a81c" alt="image" width="800">
+<img src="https://github.com/supervisely/dataset-tools/assets/78355358/8e32b371-b130-485e-817b-b058de87a81c" alt="image" width="1200">
 
 <span style="font-size: smaller; font-style: italic;">Distributions of categories, images and objects from LogoDet-3K on super-classes.</span>
