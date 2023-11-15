@@ -53,9 +53,9 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://arxiv.org/abs/2008.05359"]
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https://github.com/Wangjing1551/LogoDet-3K-Dataset", "Kaggle":"https://www.kaggle.com/datasets/lyly99/logodet3k"}
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Kaggle":"https://www.kaggle.com/datasets/lyly99/logodet3k"}
 
-CITATION_URL: Optional[str] = "https://arxiv.org/abs/2008.05359"
+CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = [
     "Jing Wang",
     "Weiqing Min",
@@ -64,10 +64,10 @@ AUTHORS: Optional[List[str]] = [
     "Yuanjie Zheng",
     "Shuqiang Jiang"
 ]
-AUTHORS_CONTACTS: Optional[List[str]] = None
+AUTHORS_CONTACTS: Optional[List[str]] = ["2018020875@stu.sdnu.edu.cn", "sujuanhou@sdnu.edu.cn", "201711030133@stu.sdnu.edu.cn", "zhengyuanjie@gmail.com" "minweiqing@ict.ac.cn", "sqjiang@ict.ac.cn"]
 
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
-ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Shandong Normal University, China", "Chinese Academy of Sciences"]
+ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://english.sdnu.edu.cn/", "https://english.cas.cn/"]
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {"root-categories" : ['clothes', 'electronic', 'food', 'leisure', 'medical', 'necessities', 'others', 'sports', 'transportation']}
